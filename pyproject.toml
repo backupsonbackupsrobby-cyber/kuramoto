@@ -42,6 +42,7 @@ dependencies = [
 [dependency-groups]
 dev = [
     "bctpy>=0.6.1",
+    "black>=25.9.0",
     "jupyter>=1.1.1",
     "mypy>=1.15.0",
     "networkx>=3.2.1",
