@@ -12,7 +12,7 @@ name = "kuramoto"
 version = "0.4.0"
 license = "MIT"
 license-files = [ "LICENSE" ]
-description = "Kuramoto model on graphs"
+description = "Python implementation of the Kuramoto model"
 authors = [
     { name = "Fabrizio Damicelli", email = "fabridamicelli@gmail.com" }
 ]
