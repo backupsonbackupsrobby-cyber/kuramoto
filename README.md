@@ -1,5 +1,8 @@
 [![Downloads](https://static.pepy.tech/personalized-badge/kuramoto?period=total&units=international_system&left_color=black&right_color=orange&left_text=Downloads)](https://pepy.tech/project/kuramoto)
 
+[![CI](https://github.com/fabridamicelli/kuramoto/actions/workflows/ci.yml/badge.svg?branch=master)](https://github.com/fabridamicelli/kuramoto/actions/workflows/ci.yml)
+[![image](https://img.shields.io/pypi/pyversions/kuramoto.svg)](https://pypi.python.org/pypi/kuramoto)
+
 Like the package? Don't forget to give it a GitHub ⭐ to help others find and trust it!
 
 # kuramoto
@@ -164,15 +167,6 @@ A couple of facts in order to gain intuition about the model's behaviour:
 - The higher the dimension of the lattice on which the oscillators are embedded, the easier it is to synchronize. For example, there isn't any good synchronization in one dimension, even with strong coupling. In two dimensions it is not clear yet. From 3 dimensions on, the model starts behaving more like the mean field prediction.
 
 For more and better details, [this talk](https://www.youtube.com/watch?v=5zFDMyQ8z8g) by the great Steven Strogatz is a nice primer.
-
-## Requirements
-- numpy
-- scipy
-- matplotlib
-- For the examples:
-  - bctpy
-  - networkx
-  - seaborn
 
 ## Tests
 Run tests with
