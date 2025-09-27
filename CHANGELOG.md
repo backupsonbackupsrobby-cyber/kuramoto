@@ -3,6 +3,7 @@
 - Drop support for python 3.7 and 3.8
 
 ### Refactor
+- Change license to MIT
 - Adopt `pyproject.toml`
 - Migrate to `uv`
 
