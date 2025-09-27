@@ -6,8 +6,6 @@ lint:
 
 release:
 	rm dist/*
-	# python setup.py sdist bdist_wheel
-	# twine upload dist/*
 	uv build
 	uv publish
 
