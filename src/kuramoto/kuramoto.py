@@ -1,3 +1,5 @@
+from typing import Union
+
 import numpy as np
 from scipy.integrate import odeint
 
@@ -9,8 +11,8 @@ class Kuramoto:
         coupling: float = 1,
         dt: float = 0.01,
         T: float = 10,
-        n_nodes: int | None = None,
-        natfreqs: np.ndarray | None = None,
+        n_nodes: Union[int, None] = None,
+        natfreqs: Union[np.ndarray, None] = None,
     ):
         """
         coupling: float
