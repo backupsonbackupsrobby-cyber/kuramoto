@@ -6,4 +6,8 @@
 - Change license to MIT
 - Adopt `pyproject.toml`
 - Migrate to `uv`
+- Add CI tests 
+- Add notebooks run test to make sure they run
 
+### License
+- Adopt MIT license

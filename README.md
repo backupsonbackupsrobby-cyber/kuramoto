@@ -165,15 +165,6 @@ A couple of facts in order to gain intuition about the model's behaviour:
 
 For more and better details, [this talk](https://www.youtube.com/watch?v=5zFDMyQ8z8g) by the great Steven Strogatz is a nice primer.
 
-## Requirements
-- numpy
-- scipy
-- matplotlib
-- For the examples:
-  - bctpy
-  - networkx
-  - seaborn
-
 ## Tests
 Run tests with
 ```bash

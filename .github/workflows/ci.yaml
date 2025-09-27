@@ -33,3 +33,6 @@ jobs:
 
     - name: Run linter
       run: make lint
+
+    - name: Run notebooks
+      run: ./scripts/run-notebooks.sh ./examples
