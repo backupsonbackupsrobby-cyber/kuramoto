@@ -122,7 +122,12 @@ class Kuramoto:
         # Compute derivative for all nodes for all time steps
         dxdt = np.zeros_like(act_mat)
         for time in range(n_steps):
-            dxdt[:, time] = self.derivative(act_mat[:, time], None, adj_mat)
+            dxdt[:, time] = self.derivative(
+                angles_vec=act_mat[:, time],
+                t=None,
+                adj_mat=adj_mat,
+                coupling=self.coupling,
+            )
 
         # Integrate all nodes over the time window T
         integral = np.sum(dxdt * self.dt, axis=1)
