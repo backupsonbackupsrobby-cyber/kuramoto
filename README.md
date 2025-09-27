@@ -1,6 +1,6 @@
 [![Downloads](https://static.pepy.tech/personalized-badge/kuramoto?period=total&units=international_system&left_color=black&right_color=orange&left_text=Downloads)](https://pepy.tech/project/kuramoto)
 
-[![CI](https://github.com/fabridamicelli/kuramoto/actions/workflows/ci.yml/badge.svg?branch=master)](https://github.com/fabridamicelli/kuramoto/actions/workflows/ci.yml)
+[![CI](https://github.com/fabridamicelli/kuramoto/actions/workflows/ci.yaml/badge.svg)](https://github.com/fabridamicelli/kuramoto/actions/workflows/ci.yaml)
 [![image](https://img.shields.io/pypi/pyversions/kuramoto.svg)](https://pypi.python.org/pypi/kuramoto)
 
 Like the package? Don't forget to give it a GitHub ⭐ to help others find and trust it!
