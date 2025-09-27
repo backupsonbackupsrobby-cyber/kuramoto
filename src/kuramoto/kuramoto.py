@@ -4,7 +4,14 @@ from scipy.integrate import odeint
 
 class Kuramoto:
 
-    def __init__(self, coupling=1, dt=0.01, T=10, n_nodes=None, natfreqs=None):
+    def __init__(
+        self,
+        coupling: float = 1,
+        dt: float = 0.01,
+        T: float = 10,
+        n_nodes: int | None = None,
+        natfreqs: np.ndarray | None = None,
+    ):
         """
         coupling: float
             Coupling strength. Default = 1. Typical values range between 0.4-2
@@ -52,7 +59,7 @@ class Kuramoto:
         ---- =             ---
          dt                M_i
 
-        t: for compatibility with scipy.odeint
+        t: Not used, kept for compatibility with scipy.odeint
         """
         assert (
             len(angles_vec) == len(self.natfreqs) == len(adj_mat)
@@ -61,9 +68,8 @@ class Kuramoto:
         angles_i, angles_j = np.meshgrid(angles_vec, angles_vec)
         interactions = adj_mat * np.sin(angles_j - angles_i)  # Aij * sin(j-i)
 
-        dxdt = self.natfreqs + coupling * interactions.sum(
-            axis=0
-        )  # sum over incoming interactions
+        # sum over incoming interactions
+        dxdt = self.natfreqs + coupling * interactions.sum(axis=0)
         return dxdt
 
     def integrate(self, angles_vec, adj_mat):
