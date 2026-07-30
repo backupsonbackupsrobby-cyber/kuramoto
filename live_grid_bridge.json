@@ -1,0 +1,6 @@
+{
+    "system_mode": "FORWARD-ONLY",
+    "recycle_intent_pct": 0,
+    "nodes_online": 7,
+    "alignment_arcseconds": 12
+}
