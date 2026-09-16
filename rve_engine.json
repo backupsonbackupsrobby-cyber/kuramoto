@@ -1,0 +1,8 @@
+{
+  "repository": "kuramoto",
+  "standard_merkle_root": "aa3157d489044c94e0f3c79f6e4a88681350bd45e6d7d10a0f8f847c38b2b8362de8c8b7a134cee6beb5f6d232f0d413838b54ab6efb0edd26ab2a9cb2edbbfc",
+  "recursive_merkle_root": "292f23be049e86dc04bfa5485698ececebaea6251eaade1ce9e4bfc04bb889ad922a24b0fa555721ce2ddb4244b0cad6147e5f90a014cff28fd91fbe72d5d5f1",
+  "mandelbrot_z": "nan+nanj",
+  "mandelbrot_magnitude": "nan",
+  "authority": "robdoe"
+}
